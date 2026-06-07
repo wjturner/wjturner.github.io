@@ -1,0 +1,186 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Contents: TeX and LaTeX and AMS symbols for Maths
+% $Id: lssym.tex,v 1.2 2003/03/19 20:57:46 oetiker Exp $
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+%
+% Symbol Entry for Math Symbol Tables
+%
+\newcommand{\X}[1]{$#1$&\texttt{\string#1}\hspace*{1ex}}
+% normal text .... 
+\newcommand{\SC}[1]{#1&\texttt{\string#1}\hspace*{1ex}}
+% for accents in text mode
+\newcommand{\A}[1]{#1&\texttt{\string#1}\hspace*{1ex}}
+\newcommand{\B}[2]{#1#2&\texttt{\string#1{} #2}\hspace*{1ex}}
+
+\newcommand{\W}[2]{$#1{#2}$&
+  \texttt{\string#1}\texttt{\string{\string#2\string}}\hspace*{1ex}}
+\newcommand{\Y}[1]{$\big#1$ &\texttt{\string#1}}  %
+\newcommand{\Z}[1]{\texttt{\string#1}}  %
+% Mathsymbol Table
+\newsavebox{\symbbox}
+\newenvironment{symbols}[1]%
+{\par\vspace*{2ex}
+\renewcommand{\arraystretch}{1.1}
+\begin{lrbox}{\symbbox}
+\hspace*{4ex}\begin{tabular}{@{}#1@{}}}%
+{\end{tabular}\end{lrbox}\makebox[\textwidth]{\usebox{\symbbox}}\par\medskip}
+
+
+\begin{table}[!h]
+\caption{Math Mode Accents.}  \label{mathacc}
+\begin{symbols}{*4{cl}}
+\W{\hat}{a}     & \W{\check}{a} & \W{\tilde}{a} & \W{\acute}{a} \\
+\W{\grave}{a} & \W{\dot}{a} & \W{\ddot}{a}    & \W{\breve}{a} \\
+\W{\bar}{a} &\W{\vec}{a} &\W{\widehat}{A}&\W{\widetilde}{A}\\  
+\end{symbols}
+\end{table}
+ 
+\begin{table}[!h]
+\caption{Greek Letters.}
+\begin{symbols}{*4{cl}}
+ \X{\alpha}     & \X{\theta}     & \X{o}          & \X{\upsilon}  \\
+ \X{\beta}      & \X{\vartheta}  & \X{\pi}        & \X{\phi}      \\
+ \X{\gamma}     & \X{\iota}      & \X{\varpi}     & \X{\varphi}   \\
+ \X{\delta}     & \X{\kappa}     & \X{\rho}       & \X{\chi}      \\
+ \X{\epsilon}   & \X{\lambda}    & \X{\varrho}    & \X{\psi}      \\
+ \X{\varepsilon}& \X{\mu}        & \X{\sigma}     & \X{\omega}    \\
+ \X{\zeta}      & \X{\nu}        & \X{\varsigma}  & &             \\
+ \X{\eta}       & \X{\xi}        & \X{\tau} 
+\end{symbols}
+
+\begin{symbols}{*4{cl}}
+ \X{\Gamma}     & \X{\Lambda}    & \X{\Sigma}     & \X{\Psi}      \\
+ \X{\Delta}     & \X{\Xi}        & \X{\Upsilon}   & \X{\Omega}    \\
+ \X{\Theta}     & \X{\Pi}        & \X{\Phi} 
+\end{symbols}
+\end{table}
+
+\begin{table}[!tbp]
+\caption{Binary Relations and Operators.}\label{tab:binary}
+You can negate the following symbols by prefixing them with a \verb=\not= command.  
+%However, \verb=\not\mid= produces the symbol $\not\mid$.  For better results, use the \texttt{amssymb} package and the \verb=\nmid= command to produce $\nmid$.
+The \verb=\nmid= command requires the \texttt{amssymb} package.
+\begin{symbols}{*3{cl}}
+ \X{<}           & \X{>}           & \X{=}         \\
+ \X{\leq}or \verb|\le|   & \X{\geq}or \verb|\ge|   & \X{\neq}or \verb|\ne| \\
+ \X{\ll}         & \X{\gg}         & \X{\equiv}     \\
+ \X{\subset}     & \X{\supset}     & \X{\approx}    \\
+ \X{\subseteq}   & \X{\supseteq}   & \X{\cong}      \\
+ \X{\in}         & \X{\ni}, \verb|\owns|  & \X{\notin} \\
+ \X{\mid}        & \X{\nmid}       & \X{\parallel}   \\
+ \X{\perp}       & \X{:}           & \X{\propto}    \\
+\end{symbols}
+
+\begin{symbols}{*3{cl}}
+ \X{+}              & \X{-}              & \X{\circ}         \\
+ \X{\pm}            & \X{\mp}            & \X{\ast}          \\
+ \X{\cdot}          & \X{\div}           & \X{\bullet}       \\
+ \X{\times}         & \X{\setminus}      & \X{\dagger}       \\
+ \X{\cup}           & \X{\cap}           & \X{\ddagger}      \\
+ \X{\vee}, \verb|\lor|     & \X{\wedge}, \verb|\land|  
+\end{symbols}
+ 
+\end{table}
+
+\begin{table}[!tbp]
+\caption{Variable-Sized Operators.}
+\begin{symbols}{*4{cl}}
+ \X{\sum}      & \X{\bigcup}   & \X{\bigvee}   & \\
+ \X{\prod}     & \X{\bigcap}   & \X{\bigwedge} &\\
+ \X{\int}      & \X{\oint}     & &             & 
+\end{symbols}
+ 
+\end{table}
+
+
+\begin{table}[!tbp]
+\caption{Arrows.}
+\begin{symbols}{*3{cl}}
+ \X{\leftarrow}or \verb|\gets|& \X{\longleftarrow} & \X{\uparrow}          \\
+ \X{\rightarrow}or \verb|\to|& \X{\longrightarrow} & \X{\downarrow}        \\
+ \X{\leftrightarrow}    & \X{\longleftrightarrow}& \X{\updownarrow}      \\
+ \X{\Leftarrow}         & \X{\Longleftarrow}     & \X{\Uparrow}          \\
+ \X{\Rightarrow}        & \X{\Longrightarrow}    & \X{\Downarrow}        \\
+ \X{\Leftrightarrow}    & \X{\Longleftrightarrow}& \X{\Updownarrow}      \\
+ \X{\mapsto}            & \X{\longmapsto}        & \\
+ \X{\iff}(bigger spaces)& 
+
+\end{symbols}
+\end{table}
+
+\begin{table}[!tbp]
+\caption{Log-like Symbols.}\label{tab:log-like}
+\begin{symbols}{*8{cl}}
+\Z\arccos & \Z\cos  & \Z\coth & \Z\det & \Z\gcd & \Z\ln     & \Z\min & \Z\sinh \\
+\Z\arcsin & \Z\cosh & \Z\csc & \Z\dim & \Z\lim  & \Z\log    & \Z\sec & \Z\tan  \\
+\Z\arctan & \Z\cot  & \Z\deg & \Z\exp & \Z\lg   & \Z\max    & \Z\sin & \Z\tanh \\
+\end{symbols}
+
+{\centering\footnotesize
+  Calling the above ``symbols'' may be a bit misleading.
+  Each log-like symbol merely produces the eponymous textual equivalent,
+  but with proper surrounding spacing.}
+\end{table}
+
+\begin{table}[!tbp]
+\caption{Delimiters.}\label{tab:delimiters}
+\begin{symbols}{*4{cl}}
+ \X{(}            & \X{)}            & \X{\uparrow} & \X{\Uparrow}    \\
+ \X{[}or \verb|\lbrack|   & \X{]}or \verb|\rbrack|  & \X{\downarrow}   & \X{\Downarrow}  \\
+ \X{\{}or \verb|\lbrace|  & \X{\}}or \verb|\rbrace|  & \X{\updownarrow} & \X{\Updownarrow}\\
+ \X{\langle}      & \X{\rangle}  & \X{|}or \verb|\vert| &\X{\|}or \verb|\Vert|\\
+ \X{\lfloor}      & \X{\rfloor}      & \X{\lceil}       & \X{\rceil}      \\
+ \X{/}            & \X{\backslash}   & &. (dual. empty)
+\end{symbols}
+\end{table}
+
+\begin{table}[!tbp]
+\caption{Miscellaneous Symbols.}
+\begin{symbols}{*4{cl}}
+ \X{\dots}       & \X{\cdots}      & \X{\vdots}      & \X{\ddots}     \\
+ \X{\infty}      & \X{\imath}      & \X{\jmath}      & \X{\ell}       \\
+ \X{\forall}     & \X{\exists}     & \X{\partial}    & \X{\nabla}     \\
+ \X{'}           & \X{\prime}      & \X{\emptyset}   & \X{\angle}     \\
+\end{symbols}
+\end{table}
+
+\begin{table}[!tbp]
+\caption{Non-Mathematical Symbols.}
+\bigskip
+These symbols can also be used in text mode.
+\begin{symbols}{*4{cl}}
+ \SC{\dag}  &  \SC{\S}  &  \SC{\copyright} &  \SC{\textregistered}  \\
+ \SC{\ddag} &  \SC{\P}  &  \SC{\pounds}    &  \SC{\%}               \\
+\end{symbols}
+\end{table}
+
+\begin{table}[!tbp]
+\caption{Math Alphabets.}
+\begin{symbols}{@{}*3l@{}}
+Example& Command &Required package\\
+\hline
+\rule{0pt}{1.05em}$\mathrm{ABCDE abcde 1234}$
+        & \verb|\mathrm{ABCDE abcde 1234}|
+        &       \\
+$\mathit{ABCDE abcde 1234}$
+        & \verb|\mathit{ABCDE abcde 1234}|
+        &       \\
+$\mathnormal{ABCDE abcde 1234}$
+        & \verb|\mathnormal{ABCDE abcde 1234}|
+        &  \\
+$\mathcal{ABCDE}$
+        & \verb|\mathcal{ABCDE}|
+        &  \\
+%% $\mathscr{ABCDE}$
+%%        &\verb|\mathscr{ABCDE}|
+%%        &\emph{mathrsfs}\\
+$\mathfrak{ABCDE abcde 1234}$
+        & \verb|\mathfrak{ABCDE abcde 1234}|
+        &\emph{amsfonts}  or \emph{amssymb}  \\
+$\mathbb{ABCDE}$
+        & \verb|\mathbb{ABCDE}|
+        &\emph{amsfonts}  or \emph{amssymb} \\
+\end{symbols}
+\end{table}
