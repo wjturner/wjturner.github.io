@@ -1,0 +1,92 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="../index.css">
+	<base target="_top">
+	<link rel="shortcut icon" href="../Images/wabash-w-icon.ico">
+	<script type="text/javascript" src="../Scripts/base_scr.js"></script> 
+	<title>Writing Resources</title>
+</head>
+
+<body>
+
+<hr>
+
+<h1>Writing Resources</h1>
+
+
+<dl>
+	<dt><a href="writing.pdf">A Brief Introduction to Mathematical Writing</a></dt>
+	<dd>A short introduction to the specifics of mathematical writing.  However you should also consult a good general-purpose style manual.</dd>
+
+	<dt><a href="proofs.pdf">A Brief Introduction to Proofs</a></dt>
+	<dd>A short guide to reading and writing proofs.</dd>
+
+	<dt><a href="LaTeX/index.html">LaTeX Resources</a></dt>
+	<dd>Resources for using the LaTeX typesetting system.</dd>
+
+</dl>
+
+
+
+<hr>
+
+<h2>LaTeX</h2>
+
+<h3>LaTeX Instructions</h3>
+
+<p>
+The file <a href="LaTeX/latex.pdf">latex.pdf</a> is a brief set of instructions
+to create a LaTeX document, including information specific to Wabash College.
+The following files contain the source files for the instructions:
+<ul>
+	<li><a href="LaTeX/latex.tex">latex.tex</a></li>
+	<li><a href="LaTeX/latex.bib">latex.bib</a></li>
+	<li><a href="LaTeX/symbols.tex">symbols.tex</a></li>
+	<li><a href="LaTeX/radix3_network_2.eps">radix3_network_2.eps</a></li>
+	<li><a href="LaTeX/radix3_network_2.png">radix3_network_2.png</a></li>
+</ul>
+These instructions are too long to serve as a good template, so the following
+files may be more useful for that purpose:
+<ul>
+	<li><a href="LaTeX/template.pdf">template.pdf</a></li>
+	<li><a href="LaTeX/template.tex">template.tex</a></li>
+</ul>
+</p>
+
+<h3>Resources on the Web</h3>
+
+<ul>
+	<li><a href="http://www.tug.org">TeX Users Group (TUG)</a></li>
+	<li><a href="http://www.ctan.org">Comprehensive TeX Archive Network</a></li>
+	<li><a href="http://en.wikibooks.org/wiki/LaTeX">LaTeX Wikibooks</a></li>
+</ul>
+
+
+<hr>
+
+<table class="footer">
+    <tr>
+      <td align="left">Last updated <script type="text/javascript"> document.write(lastModified()); </script> </td>
+      <td align="center"> <a href="http://persweb.wabash.edu/facstaff/turnerw">http://persweb.wabash.edu/facstaff/turnerw</a> </td>
+      <td align="right"> <a href="mailto:turnerw@wabash.edu">turnerw@wabash.edu</a> </td>
+    </tr>
+</table>
+
+<hr>
+
+<!-- Google Analytics -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6577272-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+
+</html>

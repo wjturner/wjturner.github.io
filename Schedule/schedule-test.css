@@ -1,0 +1,111 @@
+@import "../index.css";
+
+table.list { border: 0px; padding: 0px; 
+	vertical-align: top; text-align: left; 
+	border-collapse: collapse;
+}
+table.list th, table.list td { vertical-align: top; text-align: left; 
+	padding: 0px; padding-right: 1em;  border: solid white 0px; }
+
+table.schedule { background: silver; color: navy; 
+	border: ridge #cc0000 thick;
+	width: 100%;
+	border-collapse: collapse;
+	font-size: smaller;
+	font-weight: bold;
+	text-align: center; 
+	vertical-align: middle; 
+}
+
+table.schedule td, table.schedule th { border: solid white 0px; }
+table.schedule th { font-style: italic; }
+
+td.office { color: white; background: blue; }
+td.office a { color: white; text-decoration: none; }
+td.office :hover { color: blue; background: white; }
+
+td.office { color: white; background: navy; }
+td.office a { color: white; text-decoration: none; }
+td.office :hover { color: navy; background: white; }
+
+/*
+td.office { color: navy; background: white; }
+td.office a { color: blue; text-decoration: none; }
+td.office :hover { color: white; background: blue; }
+
+td.office { color: navy; background: white; }
+td.office a { color: blue; text-decoration: none; }
+td.office :hover { color: white; background: blue; }
+
+td.office { color: navy; background: tan; }
+td.office a { color: blue; text-decoration: none; }
+td.office :hover { color: tan; background: blue; }
+
+td.office { color: navy; background: yellow; }
+td.office a { color: blue; text-decoration: none; }
+td.office :hover { color: yellow; background: blue; }
+*/
+
+/* Meetings : Blue */
+
+td.meeting { color: white; background: #0000ff; }
+td.meeting a { color: white; text-decoration: none; }
+td.meeting :hover { color: #0000ff; background: white; }
+
+td.meeting2 { color: silver; background: #0000cc; }
+td.meeting2 a { color: white; text-decoration: none; }
+td.meeting2 :hover { color: #0000cc; background: white; }
+
+td.meeting3 { color: silver; background: #000099; }
+td.meeting3 a { color: white; text-decoration: none; }
+td.meeting3 :hover { color: #000099; background: white; }
+
+td.seminar { color: navy; background: lightblue; }
+td.seminar a { color: blue; text-decoration: none; }
+td.seminar :hover { color: lightblue; background: blue; }
+
+/* Classes : Red */
+
+td.class1 { color: silver; background: #ff0000; }
+td.class1 a { color: white; text-decoration: none; }
+td.class1 :hover { color: #ff0000; background: white; }
+
+td.class2 { color: silver; background: #cc0000; }
+td.class2 a { color: white; text-decoration: none; }
+td.class2 :hover { color: #cc0000; background: white; }
+
+td.class3 { color: silver; background: #990000; }
+td.class3 a { color: white; text-decoration: none; }
+td.class3 :hover { color: #990000; background: white; }
+
+td.class4 { color: silver; background: #660000; }
+td.class4 a { color: white; text-decoration: none; }
+td.class4 :hover { color: #660000; background: white; }
+
+/* C&T Staff Meeting : Red + Blue */
+
+td.ctmeeting { color: navy; background: #00cccc; }
+td.ctmeeting a { color: blue; text-decoration: none; }
+td.ctmeeting :hover { color: #00cccc; background: blue; }
+
+/* Personal Time : Green */
+
+td.research { color: navy; background: #00ff00; }
+td.research a { color: blue; text-decoration: none; }
+td.research :hover { color: #00ff00; background: blue; }
+
+td.lunch { color: blue; background: blue; }
+
+/* Auditing classes : Yellow = Red + Green */
+
+td.audit { color: navy; background: #ffff00; }
+td.audit a { color: blue; text-decoration: none; }
+td.audit :hover { color: #cccc00; background: blue; }
+
+/* Miscellaneous : Gray */
+
+td.other { color: navy; background: gray; }
+td.other a { color: blue; text-decoration: none; }
+td.other :hover { color: gray; background: blue; }
+
+

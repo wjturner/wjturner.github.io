@@ -1,0 +1,79 @@
+@import "base.css";
+
+body { color: navy ; background:  white; font-family: Arial, sans-serif; }
+
+:link, :visited, :active { color: blue; text-decoration: none; }
+a:hover  { color: white; background: blue; }
+
+div.yellowbox { background: #fad932; border-style: solid; border-width: thick;
+		padding: 1em; margin-left: 10%; margin-right: 10%; }
+
+h1 { text-align: center }
+
+img { border: 0 }
+
+.title { 
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	margin-left: auto; margin-right: auto;
+}
+
+table.menu { background: #cc0000; color: white; 
+	border: ridge silver thick; 
+	frame: silver;
+	width: 100%;
+	border-collapse: collapse;
+	font-weight: bold;
+	text-align: center; 
+	vertical-align: middle; 
+}
+
+table.menu td, th { border: ridge silver ; }
+table.menu a { color: white; text-decoration: none; }
+table.menu :hover { color: #cc0000; background: white; }
+
+table.list { border: 0px; padding: 0px; 
+	vertical-align: top; text-align: left; 
+	border-collapse: collapse;
+}
+table.list th, table.list td { vertical-align: top; text-align: left; 
+	padding: 0px; padding-right: 1em; }
+
+table.schedule { background: silver; color: navy; 
+	border: ridge #cc0000 thick;
+	width: 100%;
+	border-collapse: collapse;
+	font-weight: bold;
+	text-align: center; 
+	vertical-align: middle; 
+}
+
+table.schedule td, th { border: solid white 1px; }
+
+td.lunch { color: white; background: blue; }
+
+td.office { color: white; background: blue; }
+td.office a { color: white; text-decoration: none; }
+td.offce :hover { color: blue; background: white; }
+
+td.seminar { color: navy; background: lightblue; }
+td.seminar a { color: blue; text-decoration: none; }
+td.seminar :hover { color: lightblue; background: blue; }
+
+td.meeting { color: navy; background: white; }
+td.meeting a { color: blue; text-decoration: none; }
+td.meeting :hover { color: white; background: blue; }
+
+td.class1 { color: navy; background: yellow; }
+td.class1 a { color: blue; text-decoration: none; }
+td.class1 :hover { color: yellow; background: blue; }
+
+td.class2 { color: navy; background: orange; }
+td.class2 a { color: blue; text-decoration: none; }
+td.class2 :hover { color: orange; background: blue; }
+
+td.class3 { color: navy; background: red; }
+td.class3 a { color: blue; text-decoration: none; }
+td.class3 :hover { color: red; background: blue; }
+
