@@ -1,0 +1,68 @@
+body {color: black ; background:  white; font-family: Arial, sans-serif; }
+
+:link, :visited, :active { color: navy; text-decoration: none; }
+a:hover  { color: white; background: navy; }
+
+.new { color: red; background: yellow; font-weight: bold; }
+
+img { border: 0 }
+
+h2, h3 { color: #2C70B3; }
+
+hr { background: #c51429; height: 2px; border: 0 }
+
+.title { 
+	font-weight: bold;
+	text-align: left;
+	width: 100%;
+	margin-left: auto; margin-right: auto;
+}
+
+table.header { 
+	border: 0; 
+	width: 100%;
+	text-align: center; 
+	vertical-align: middle; 
+}
+
+table.parts { 
+	border: 0; 
+	width: 100%;
+	text-align: left; 
+	vertical-align: top; 
+}
+
+table.footer { 
+	border: 0; 
+	width: 100%;
+	font-size: smaller;
+	font-style: italic;
+	text-align: center; 
+	vertical-align: middle; 
+}
+
+table.title { 
+	border: 0; 
+	border-spacing: 10; 
+	width: 100%;
+	text-align: center; 
+	vertical-align: top; 
+}
+
+td.contact {
+	font-size: smaller;
+}
+
+td.Line{
+	text-align: center;
+	font-weight: bold;
+	width: 1500px;
+}
+
+table.list { border: 0px; padding: 0px; 
+	vertical-align: top; text-align: left; 
+	border-collapse: collapse;
+}
+table.list th, table.list td { vertical-align: top; text-align: left; 
+	padding: 0px; padding-right: 1em;  border: solid white 0px; }
+
