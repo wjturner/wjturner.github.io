@@ -55,13 +55,17 @@ td.meeting2 { color: white; background: #0000cc; }
 td.meeting2 a { color: white; text-decoration: none; }
 td.meeting2 :hover { color: #0000cc; background: white; }
 
-td.meeting3 { color: white; background: #000099; }
+td.meeting3 { color: white; background: #0000aa; }
 td.meeting3 a { color: white; text-decoration: none; }
 td.meeting3 :hover { color: #000099; background: white; }
 
-td.meeting4 { color: white; background: #000066; }
+td.meeting4 { color: white; background: #000088; }
 td.meeting4 a { color: white; text-decoration: none; }
 td.meeting4 :hover { color: #000066; background: white; }
+
+td.meeting5 { color: white; background: #000066; }
+td.meeting5 a { color: white; text-decoration: none; }
+td.meeting5 :hover { color: #000033; background: white; }
 
 td.seminar { color: navy; background: lightblue; }
 td.seminar a { color: blue; text-decoration: none; }
