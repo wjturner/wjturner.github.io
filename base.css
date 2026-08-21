@@ -1,0 +1,14 @@
+body {color: black ; background:  white; font-family: Arial, sans-serif; }
+
+:link, :visited, :active { color: navy; text-decoration: none; }
+a:hover  { color: white; background: navy; }
+
+h1, h2, h3, h4 { text-align: center; }
+
+.new { color: red; background: yellow; font-weight: bold; }
+
+img { border: 0 }
+
+
+
+
