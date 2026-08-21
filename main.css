@@ -1,0 +1,43 @@
+@import "base.css";
+
+dt { font-weight: bold; }
+
+div.yellowbox { background: #fad932; border-style: solid; border-width: thick;
+		padding: 1em; margin-left: 10%; margin-right: 10%; }
+
+img { border: 0 }
+
+.title {
+	color:	black; 
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	margin-left: auto; margin-right: auto;
+}
+
+.title a { color: navy; text-decoration: none; }
+.title :hover { color: white; background: navy; }
+
+table.menu { background: #cc0000; color: white; 
+	border: ridge silver thick; 
+	frame: silver;
+	width: 100%;
+	border-collapse: collapse;
+	font-weight: bold;
+	text-align: center; 
+	vertical-align: middle; 
+}
+
+table.menu td, th { border: ridge silver ; }
+table.menu a { color: white; text-decoration: none; }
+table.menu :hover { color: #cc0000; background: white; }
+
+table.list { border: 0px; padding: 0px; 
+	vertical-align: top; text-align: left; 
+	border-collapse: collapse;
+}
+table.list th, table.list td { vertical-align: top; text-align: left; 
+	padding: 0px; padding-right: 1em;  border: solid white 0px; }
+
+
+
