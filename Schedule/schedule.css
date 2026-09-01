@@ -32,82 +32,82 @@ table.schedule th { font-style: italic; }
 
 /*
 td.office { color: white; background: blue; }
-td.office a { color: white; text-decoration: none; font-weight: bold; }
+td.office a { color: white; text-decoration: underline; }
 td.office :hover { color: blue; background: white; }
 
 td.office { color: white; background: navy; }
-td.office a { color: white; text-decoration: none; font-weight: bold; }
+td.office a { color: white; text-decoration: underline; }
 td.office :hover { color: navy; background: white; }
 */
 
 td.office { color: navy; background: white; }
-td.office a { color: blue; text-decoration: none; font-weight: bold; }
+td.office a { color: blue; text-decoration: underline; }
 td.office :hover { color: white; background: blue; }
 
 /*
 td.office { color: navy; background: white; }
-td.office a { color: blue; text-decoration: none; font-weight: bold; }
+td.office a { color: blue; text-decoration: underline; }
 td.office :hover { color: white; background: blue; }
 
 td.office { color: navy; background: tan; }
-td.office a { color: blue; text-decoration: none; font-weight: bold; }
+td.office a { color: blue; text-decoration: underline; }
 td.office :hover { color: tan; background: blue; }
 
 td.office { color: navy; background: yellow; }
-td.office a { color: blue; text-decoration: none; font-weight: bold; }
+td.office a { color: blue; text-decoration: underline; }
 td.office :hover { color: yellow; background: blue; }
 */
 
 /* Meetings : Blue */
 
 td.meeting { color: white; background: #0000ff; }
-td.meeting a { color: white; text-decoration: none; font-weight: bold; }
+td.meeting a { color: white; text-decoration: underline; }
 td.meeting :hover { color: #0000ff; background: white; }
 
 td.meeting2 { color: white; background: #0000cc; }
-td.meeting2 a { color: white; text-decoration: none; font-weight: bold; }
+td.meeting2 a { color: white; text-decoration: underline; }
 td.meeting2 :hover { color: #0000cc; background: white; }
 
 td.meeting3 { color: white; background: #0000aa; }
-td.meeting3 a { color: white; text-decoration: none; font-weight: bold; }
+td.meeting3 a { color: white; text-decoration: underline; }
 td.meeting3 :hover { color: #000099; background: white; }
 
 td.meeting4 { color: white; background: #000088; }
-td.meeting4 a { color: white; text-decoration: none; font-weight: bold; }
+td.meeting4 a { color: white; text-decoration: underline; }
 td.meeting4 :hover { color: #000066; background: white; }
 
 td.meeting5 { color: white; background: #000066; }
-td.meeting5 a { color: white; text-decoration: none; font-weight: bold; }
+td.meeting5 a { color: white; text-decoration: underline; }
 td.meeting5 :hover { color: #000033; background: white; }
 
 td.seminar { color: navy; background: lightblue; }
-td.seminar a { color: blue; text-decoration: none; font-weight: bold; }
+td.seminar a { color: blue; text-decoration: underline; }
 td.seminar :hover { color: lightblue; background: blue; }
 
 /* Classes : Red */
 
 td.class1 { color: white; background: #ff0000; }
-td.class1 a { color: white; text-decoration: none; font-weight: bold; }
+td.class1 a { color: white; text-decoration: underline; }
 td.class1 :hover { color: #ff0000; background: white; }
 
 td.class2 { color: white; background: #dd0000; }
-td.class2 a { color: white; text-decoration: none; font-weight: bold; }
+td.class2 a { color: white; text-decoration: underline; }
 td.class2 :hover { color: #dd0000; background: white; }
 
 td.class3 { color: white; background: #bb0000; }
-td.class3 a { color: white; text-decoration: none; font-weight: bold; }
+td.class3 a { color: white; text-decoration: underline; }
 td.class3 :hover { color: #bb0000; background: white; }
 
 td.class4 { color: white; background: #990000; }
-td.class4 a { color: white; text-decoration: none; font-weight: bold; }
+td.class4 a { color: white; text-decoration: underline; }
 td.class4 :hover { color: #990000; background: white; }
 
 td.class5 { color: white; background: #770000; }
-td.class5 a { color: white; text-decoration: none; font-weight: bold; }
+td.class5 a { color: white; text-decoration: underline; }
 td.class5 :hover { color: #770000; background: white; }
 
 td.class6 { color: white; background: #550000; }
-td.class6 a { color: white; text-decoration: none; font-weight: bold; }
+td.class6 a { color: white; text-decoration: underline; }
 td.class6 :hover { color: #550000; background: white; }
 
 /* C&T Staff Meeting : Red + Blue */
