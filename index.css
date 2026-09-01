@@ -1,7 +1,7 @@
 body {color: black ; background:  white; font-family: Arial, sans-serif; }
 
-:link, :visited, :active { color: navy; text-decoration: none; }
-a:hover  { color: white; background: navy; }
+:link, :visited, :active { color: navy; text-decoration: none; font-weight: bold; }
+a:hover  { color: white; background: navy; font-weight: bold; }
 
 .new { color: red; background: yellow; font-weight: bold; }
 
